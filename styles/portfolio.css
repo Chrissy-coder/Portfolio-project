@@ -63,3 +63,22 @@ h1 {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+h2 {
+  font-size: 64px;
+}
+
+p {
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.btn-branding-outline {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
