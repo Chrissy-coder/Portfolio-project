@@ -103,13 +103,19 @@ p {
 
 .patricia {
   border-radius: 20px;
+  width: auto;
+  height: auto;
+}
+
+.about-hero {
+  text-align: center;
+  padding: 160px 20px;
 }
 
 .about-hero h1 {
   font-family: var(--heading-font-family);
   font-size: 64px;
-  font-weight: 700;
-  line-height: 85px;
+  line-height: 80px;
   text-align: left;
 }
 
@@ -117,7 +123,7 @@ p {
   font-family: var(--default-font-family);
   font-size: 18px;
   font-weight: 700;
-  line-height: 27px;
+  line-height: 1.5;
   text-align: left;
 }
 
@@ -128,4 +134,8 @@ p {
   line-height: 30px;
   text-align: left;
   color: rgba(39, 33, 66, 0.7);
+}
+
+.about-section-content {
+  margin: 30px;
 }
