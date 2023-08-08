@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #272142;
   --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", sans-serif;
   --default-font-family: "poppins", sans-serif;
@@ -37,7 +37,7 @@ h1 {
   font-size: 36px;
   line-height: 1.5;
   text-align: center;
-  color: #272142;
+  color: var(--branding-color);
   margin: 0;
 }
 
@@ -51,12 +51,19 @@ h1 {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background-color: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  text-decoration: none;
+}
+
+.btn-branding:hover {
+  background-color: var(--branding-color);
+  color: white;
+  transition: all 150ms ease-in-out;
 }
 
 h2 {
