@@ -46,7 +46,6 @@ h1 {
   font-size: 24px;
   font-weight: 400;
   line-height: 1.5;
-
   text-align: center;
   color: #272142;
 }
@@ -86,7 +85,6 @@ p {
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
-  
   }
 
   h2 {
@@ -101,4 +99,33 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+.patricia {
+  border-radius: 20px;
+}
+
+.about-hero h1 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85px;
+  text-align: left;
+}
+
+.about-hero h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+
+.about-hero p {
+  font-family: var(--default-font-family);
+  font-size: 14px;
+  font-weight: lighter;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(39, 33, 66, 0.7);
 }
