@@ -108,7 +108,7 @@ p {
   }
 
   .about-section {
-    padding: 15px 15px;
+    padding: 15px 10px;
     line-height: 1;
     text-align: center;
   }
@@ -150,5 +150,5 @@ p {
 }
 
 .about-section-content {
-  margin: 30px;
+  margin: 20px 10px;
 }
