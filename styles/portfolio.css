@@ -139,7 +139,7 @@ p {
 }
 
 .logo {
-  max-width: 150px;
+  max-height: 40px;
 }
 
 nav {
@@ -155,7 +155,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  margin-left: 20px;
+  margin-left: 15px;
 }
 
 nav a {
@@ -166,7 +166,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: #6c63ff;
+  color: #6C63FF;
 }
 
 @media (max-width: 900px) {
@@ -182,19 +182,14 @@ nav li.active a {
     padding: 80px 20px;
   }
 
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+
+
   .project-description {
     padding: 0;
     text-align: center;
-  }
-
-  .content-container {
-    text-align: center;
-    padding: 60px 10px;
-    line-height: 1;
-  }
-
-  .content h1 {
-    font-size: 40px;
-    line-height: 1;
   }
 }
