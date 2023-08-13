@@ -98,29 +98,8 @@ p {
   padding: 120px 60px;
 }
 
-@media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
-  }
-
-  h2 {
-    font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
-  }
-
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-
-  .content-container {
-    text-align: center;
-    padding: 0;
-    line-height: 1;
-  }
+.logo {
+  max-width: 150px;
 }
 
 .patricia {
@@ -161,4 +140,34 @@ p {
 .content {
   text-align: center;
   padding: 0;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 60px 10px;
+    line-height: 1;
+  }
+
+  .content h1 {
+    font-size: 40px;
+    line-height: 1;
+  }
 }
