@@ -231,10 +231,10 @@ footer .social-links a:hover {
     padding: 80px 20px;
   }
 
-.content h1{
+  .content h1 {
     font-size: 44px;
     line-height: 1.5;
-}
+  }
 
   .content {
     text-align: center;
@@ -245,4 +245,8 @@ footer .social-links a:hover {
     padding: 0;
     text-align: center;
   }
+}
+
+.img-fluid {
+  margin: 20px auto;
 }
