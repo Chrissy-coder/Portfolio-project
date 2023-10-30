@@ -101,10 +101,12 @@ p {
   padding: 120px 60px;
 }
 
-.patricia {
-  border-radius: 20px;
+.christine {
+  border-radius: 30px;
   width: auto;
   height: auto;
+  position: relative;left: 30px;
+
 }
 
 .content-container {
